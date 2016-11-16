@@ -9,6 +9,12 @@ rm -rf .git/ && git init
 ```
 Then make sure to edit `package.json` and change the **name**, **description**, **repo url**, and **author**.
 
+```bash
+npm install
+npm start
+```
+Then go to localhost:8080 in your browser.
+
 For different start configurations, clone specific branches like so:
 ```bash
 # With Mocha, Chai, and Sinon installed (run 'npm test')
