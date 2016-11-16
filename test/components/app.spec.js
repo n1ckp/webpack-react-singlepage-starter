@@ -3,8 +3,8 @@ import { shallow } from 'enzyme';              // method from enzyme which allow
 import App from '../../src/components/app';  // import our soon to be component
 
 describe('(Component) App', () => {
-  it('renders as a <h1>', () => {
+  it('renders as a <div>', () => {
     const wrapper = shallow(<App />);
-    expect(wrapper.type()).to.eql('h1');
+    expect(wrapper.type()).to.eql('div');
   });
 });
